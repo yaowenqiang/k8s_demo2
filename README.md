@@ -8,3 +8,5 @@
 > source kubectl.zsh
 > kubectl log -f pod-name
 > kubectl apply -f https://k8s.io/examples/application/guestbook/redis-master-service.yaml
+> minikube service wordpress --url
+> minikube get events
