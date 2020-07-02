@@ -10,3 +10,7 @@
 > kubectl apply -f https://k8s.io/examples/application/guestbook/redis-master-service.yaml
 > minikube service wordpress --url
 > minikube get events
+> kubectl run myapp --image=nginx --dry-run -o yaml
+> kubectl create secret generic mysecret --from-literal=quiet-phrase="Shh! Dont' tell" -o yaml --dry-run
+> kubectl get deployment mysql --export -o yaml > mysql.yaml
+
